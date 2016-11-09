@@ -1,0 +1,33 @@
+h1 {
+  color: #FF7643;
+}
+
+.special {
+  color:#FF0000;
+  font-family: "Comic Sans MS", cursive;
+}
+#header {
+  font-size: 36px;
+}
+
+p.intro { color: yellow; }
+
+a#link {text-decoration: none }
+
+input[type="text"] {
+  border: 1px green solid;
+}
+
+h1 strong { color: red; }
+
+input:focus {
+  background-color: #FFFFBB;
+}
+li:first-child {
+  font-weight: bold;
+}
+p::before {
+  content: "A tip!";
+}
+div {color: red;}
+p { color:green;}

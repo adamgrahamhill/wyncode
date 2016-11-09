@@ -1,0 +1,64 @@
+/*p {
+  padding-left: 5rem;
+  border: 1px solid gray;
+}
+
+#bigfontindent {
+  font-size: 2em;
+}
+#normalfontindent {
+  font-size: 1em;
+}
+#smallfontindent {
+  font-size: 0.5em;
+}
+.square {
+  width: 20em;
+  background: #31D3FD;
+  margin: 0 auto;
+  padding: 10px;
+}
+.square2 {
+  width: 26em;
+  box-sizing: border-box ;
+  background: #31D3FD;
+  margin-bottom: 2em;
+  padding: 3em 10em;
+  border: 5px solid #1A86A1
+}
+.floater {
+  background: brown;
+  width: 10em;
+  float: left;
+}
+.floater2 {
+  background: green;
+  width: 10em;
+  float: left;
+
+}
+.mmm {
+  float: left;
+}*/
+
+body {
+  background: #100C1B;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  margin:0px 5px;
+  float: right;
+
+}
+ul {
+  margin-right: 4em;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  font-size: 0.8em;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}

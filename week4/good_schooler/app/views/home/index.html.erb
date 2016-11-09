@@ -1,0 +1,18 @@
+<h1>Home#index</h1>
+<p>Find me in app/views/home/index.html.erb</p>
+
+<%= form_tag('/post/yoga_carlos?name=babybaby&lyrics=notoriousbig') do %>
+<input name="shoe[size]" type = "text"/>
+  <div><%= submit_tag 'Save' %></div>
+  <% end %>
+
+<%# ERB comment, soo cool %>
+<p><%= @da_time %> <p>
+<p> <%= @best_codeschool %>
+  <ul>
+<% @codeschools.each do |codeschool| %>
+  <li> <%= codeschool.name %> </li>
+  <% end %>
+  </ul>
+
+  <!-- <%# render 'code_schools' %> -->

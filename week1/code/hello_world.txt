@@ -1,0 +1,16 @@
+hello world!
+hello world!
+.
+./b
+./data.csv
+./hello_world.txt
+./output_stuff.rb
+./some_code
+./some_other_code
+./with_slash
+./with_slash/2
+./with_slash/2/3
+./without_slash
+./without_slash/1
+./without_slash/1/2
+./without_slash/1/2/3

@@ -1,0 +1,39 @@
+#send_button {
+  background-color: #9C2723;
+  border: 1px solid #9C2723;
+  padding: 5px 13px;
+  color: white;
+}
+
+.reg_button {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid lightgrey;
+}
+
+#send_button, .reg_button {
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+.buttons li {
+  display: inline-block;
+  margin: 5px;
+}
+
+ .email_contents {
+  background: rgb(185, 185, 185);
+  border: 1px solid rgb(214, 214, 214);
+}
+div.to label , div.subject label {
+  color: grey;
+  display: inline-block;
+  width: 30px;
+  padding: 20px;
+}
+
+div.email_body textarea {
+  height: 900px;
+  width: 95%;
+  margin-left:20px;
+}

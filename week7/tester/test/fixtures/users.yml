@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+# variables in test one/two
+one:
+  name: MyString
+  email: MyString
+
+two:
+  name: Adam
+  email: MyString
+
+
+# <% 100.times do |num| %>
+# user_<%= num %>:
+#   name: Name<%= num %>
+#   email: email<%= num %>@testing.com
+# <% end %>

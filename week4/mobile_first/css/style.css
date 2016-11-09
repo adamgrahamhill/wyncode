@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+/*----------------------------------------*/
+/*-----------------HEADER-----------------*/
+/*----------------------------------------*/
+
+header {
+  background-color: teal;
+}
+a.visited {
+  color:white;
+}
+a:hover {
+  color: lightgray;
+}
+
+.my-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.my-list li {
+  padding: 0.5em 0em 0.5em 1em;
+}
+/*----------------------------------------*/
+/*-----------------TITLE------------------*/
+/*----------------------------------------*/
+#month-title {
+  text-align: center;
+}
+/*----------------------------------------*/
+/*--------MAIN ARTICLE SECTION-----------*/
+/*----------------------------------------*/
+#main-article {
+  padding: 0em 0.75em;
+}
+/*----------------------------------------*/
+/*-------------EVENTS SECTION-------------*/
+/*----------------------------------------*/
+#events {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-event{
+  display:flex;
+  flex-direction: column;
+  padding: 0.75em;
+}
+
+.each-event img {
+  height:auto;
+  width: 100%;
+}
+/*----------------------------------------*/
+/*-----------------FOOTER-----------------*/
+/*----------------------------------------*/
+
+footer {
+  background-color: teal;
+}
+
+@media only screen and (min-width : 600px) {
+/* no change*/
+  /*-----------------TITLE------------------*/
+/* no change*/
+  /*--------MAIN ARTICLE SECTION-----------*/
+  #events {
+    flex-direction: row;
+  }
+
+  /*-------------EVENTS SECTION-------------*/
+
+  /*-----------------FOOTER---------------*/
+}

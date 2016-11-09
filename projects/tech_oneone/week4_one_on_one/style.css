@@ -1,0 +1,27 @@
+
+#bg1 {
+  background-image: url(http://www.photofurl.com/wp-content/uploads/2008/11/beautiful_mountain_wallpaper.jpg);
+}
+
+#bg2 {
+  background-image:url(http://webweu.se/ab33/Bilder/WPS/Artistic/Rain-Artistic-Wallpaper.jpg);
+}
+
+#bg3 {
+  background-image: url(http://www.skringers.com/wp-content/uploads/Free-Desktop-Wallpaper-Beach-Scenes-Sunny-Beach.jpg);
+}
+
+/*backgroundselection ^^^^ */
+/*backgroundselection ^^^^ */
+/*backgroundselection ^^^^ */
+
+* {
+  text-align: center;
+  color: white;
+}
+
+#temp {
+  font-size: 300%;
+  margin: 3em 0em;
+  font-family: sans-serif;
+}

@@ -1,0 +1,53 @@
+/* We keep it stylish at Octothorpe Records*/
+
+* {
+  box-sizing: border-box;
+}
+
+header , footer {
+  background-color: blue;
+
+}
+
+nav {
+  background-color: green;
+  flex-grow: 1;
+  order: 0;
+}
+
+aside {
+  background-color: red;
+  flex-grow: 1;
+  order: 3;
+}
+
+section {
+  background-color: lightgray;
+  flex-grow: 15;
+  order: 2;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
+#main > * {
+  margin: 3px;
+}
+#one {
+  background-color: red;
+  flex-basis: 50px;
+  flex-grow: 1;
+}
+#two {
+  background-color: orange;
+  flex-grow: 3;
+}
+#three {
+  background-color: purple;
+  flex-grow: 1;
+}
